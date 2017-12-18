@@ -3,7 +3,10 @@
  *
  * Title: Equal Sides Of An Array
  *
- * Function: You are going to be given an array of integers. Your job is to take that array and find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N. If there is no index that would make this happen, return -1.
+ * Function: You are going to be given an array of integers.
+ * Your job is to take that array and find an index N where the sum of
+ * the integers to the left of N is equal to the sum of the integers
+ * to the right of N. If there is no index that would make this happen, return -1.
  *
  * Exercise Link: https://www.codewars.com/kata/equal-sides-of-an-array/train/javascript
  */
