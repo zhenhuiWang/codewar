@@ -8,14 +8,13 @@
  *
  * Exercise Link: https://www.codewars.com/kata/get-the-middle-character/train/javascript
  */
- let sss = 'abc';
- function getmiddle(s){
-     let length = sss.length;
-     if(length%2 === 0){
-         return sss.substr(length/2-1, 2);
-
-     }else{
-         return sss.charAt(Math.floor(length/2));
-     }
- }
- console.log(getmiddle(sss));
+let sss = 'abc'
+function getmiddle(s) {
+  let length = sss.length
+  if (length % 2 === 0) {
+    return sss.substr(length / 2 - 1, 2)
+  } else {
+    return sss.charAt(Math.floor(length / 2))
+  }
+}
+console.log(getmiddle(sss))
