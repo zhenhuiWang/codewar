@@ -9,13 +9,13 @@
  * Exercise Link: https://www.codewars.com/kata/your-order-please/train/javascript
  */
 
-let words = "is2 Thi1s T4est 3a";
- function sortNumber(wordA, wordB) {
-      var numA = +(wordA.match(/\d+/g)[0]);
-      var numB = +(wordB.match(/\d+/g)[0]);
-      return numA - numB;
- }
+let words = 'is2 Thi1s T4est 3a'
+function sortNumber(wordA, wordB) {
+  var numA = +wordA.match(/\d+/g)[0]
+  var numB = +wordB.match(/\d+/g)[0]
+  return numA - numB
+}
 
- function order(words){
-   words.split(' ').sort(sortNumber).join(' ');
- }
+function order(words) {
+  words.split(' ').sort(sortNumber).join(' ')
+}
