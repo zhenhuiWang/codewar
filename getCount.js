@@ -8,7 +8,7 @@
  * Exercise Link: https://www.codewars.com/kata/vowel-count/train/javascript
  */
 
- function getCount(str) {
-   return (str.match(/[aeiou]/ig ) || [].length);
- }
- console.log(getCount(''));
+function getCount(str) {
+  return str.match(/[aeiou]/gi) || [].length
+}
+console.log(getCount(''))
