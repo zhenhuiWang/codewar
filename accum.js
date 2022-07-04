@@ -8,10 +8,11 @@
  * Exercise Link: https://www.codewars.com/kata/mumbling/train/javascript
  */
 
- let s1 ='aDcd';
- function accum(s) {
-     return s.split('').map((item, i)=>(
-          item.toUpperCase() + item.toLowerCase().repeat(i)
-     )).join('-');
- };
- accum(s1);
+let s1 = 'aDcd'
+function accum(s) {
+  return s
+    .split('')
+    .map((item, i) => item.toUpperCase() + item.toLowerCase().repeat(i))
+    .join('-')
+}
+accum(s1)
