@@ -9,16 +9,16 @@
  * https: //www.codewars.com/kata/scramblies/train/javascript
  */
 
- function scramble(str1, str2) {
-     var count = {};
-     var arr1 = str1.split('');
-     var arr2 = str2.split('');
-     arr1.forEach(function(item) {
-         count[item] = (count[item] || 0) + 1;
-     });
+function scramble(str1, str2) {
+  var count = {}
+  var arr1 = str1.split('')
+  var arr2 = str2.split('')
+  arr1.forEach(function (item) {
+    count[item] = (count[item] || 0) + 1
+  })
 
-     return arr2.every(function(item) {
-         return count[item]--;
-     });
- }
- console.log(scramble('javscriptsss','javascriptt'));
+  return arr2.every(function (item) {
+    return count[item]--
+  })
+}
+console.log(scramble('javscriptsss', 'javascriptt'))

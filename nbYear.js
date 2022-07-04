@@ -7,6 +7,10 @@
  *
  * Exercise Link: https://www.codewars.com/kata/growth-of-a-population/train/javascript
  */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 56c6b832f8e0d3d8eb8242405dd132e94565e750
 function nbYear(p0, percent, aug, p) {
   if (p0 >= p) {
     return 0
